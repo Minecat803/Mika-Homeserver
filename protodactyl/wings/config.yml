@@ -1,0 +1,18 @@
+debug: false
+uuid: 259a0dfa-5a2c-48f2-96da-a187136ccf2d
+token_id: 5sbM0SrarGGOxM9J
+token: iwApAKeYQKRhWjKTHdOE77lZsD8Orb7Z49zjphrOIX3rrD2pUGJPzskPuGIP0rbw
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/gs1.klstuff.duckdns.org/fullchain.pem
+    key: /etc/letsencrypt/live/gs1.klstuff.duckdns.org/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://crispy-broccoli-q7x7xpjq6qwj34vvq-8080.app.github.dev'

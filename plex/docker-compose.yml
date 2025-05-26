@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  plex:
+    image: plexinc/pms-docker:latest
+    container_name: plex
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PLEX_CLAIM= # Optional: add your Plex claim token here
+      - TZ=UTC
+    volumes:
+      - ./media/config:/config
+      - ./media/tv:/data/tv
+      - ./media/movies:/data/movies
+      - /transcode:/transcode
+      - ./media/music:/data/music
+      - ./media/photos:/data/photos
+    ports:
+      - "32400:32400"  # Plex web interface
+      - "32401:32401"  # Plex server
+      - "32600:32600"  # Plex discovery
+      - "35269:35269"  # Plex DLNA
+      - "37261:37261"  # Plex Chromecast
+      - "43783:43783"  # Plex Roku
+      - "43967:43967"  # Plex Apple TV
+      - "44839:44839"  # Plex Android TV
+      - "45833:45833"  # Plex Fire TV
+      - "32469:32469"  # Plex DLNA
+      - "3005:3005"    # Plex discovery
+      - "8324:8324"    # Plex Roku
+      - "32410:32410/udp"  # Plex Chromecast
+      - "32412:32412/udp"  # Plex Apple TV
+      - "32413:32413/udp"  # Plex Android TV
+      - "32414:32414/udp"  # Plex Fire TV
+    # Uncomment and set user:group if needed for permissions
+    # user: "1000:1000"
