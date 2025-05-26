@@ -1,0 +1,1525 @@
+May 26, 2025 18:53:27.164 [133338467429176] INFO - Plex Media Server v1.41.7.9799-5bce000f7 - Docker Docker Container x86_64 - build: linux-x86_64 debian - GMT 00:00
+May 26, 2025 18:53:27.166 [133338467429176] INFO - Linux version: 6.8.0-1027-azure, language: en-US
+May 26, 2025 18:53:27.166 [133338467429176] INFO - Processor: 2-core AMD EPYC 7763 64-Core Processor
+May 26, 2025 18:53:27.167 [133338467429176] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+May 26, 2025 18:53:27.167 [133338467429176] INFO - /usr/lib/plexmediaserver/Plex Media Server
+May 26, 2025 18:53:27.172 [133338469964432] DEBUG - BPQ: [Idle] -> [Starting]
+May 26, 2025 18:53:27.177 [133338469964432] DEBUG - FeatureManager: Using cached data for features list
+May 26, 2025 18:53:27.187 [133338469964432] DEBUG - MyPlex: mapping state set to 'Unknown'.
+May 26, 2025 18:53:27.188 [133338469964432] DEBUG - Relay: read 0 cached entries from hosts file
+May 26, 2025 18:53:27.190 [133338469964432] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 26, 2025 18:53:27.290 [133338469964432] DEBUG - MyPlex: no cached data to load for request for https://plex.tv/api/v2/server/users/features
+May 26, 2025 18:53:27.338 [133338469964432] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+May 26, 2025 18:53:27.338 [133338469964432] DEBUG - HttpServer: Listening on port 32400.
+May 26, 2025 18:53:27.340 [133338469964432] DEBUG - HttpServer: Listening on port 32401.
+May 26, 2025 18:53:27.340 [133338469964432] DEBUG - Running server...
+May 26, 2025 18:53:27.340 [133338469964432] INFO - Running migrations. (EPG 0)
+May 26, 2025 18:53:27.340 [133338449558328] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+May 26, 2025 18:53:27.343 [133338469964432] DEBUG - Captured session 0.
+May 26, 2025 18:53:27.345 [133338469964432] DEBUG - Captured session 1.
+May 26, 2025 18:53:27.345 [133338469964432] DEBUG - Captured session 2.
+May 26, 2025 18:53:27.345 [133338469964432] DEBUG - Captured session 3.
+May 26, 2025 18:53:27.345 [133338469964432] DEBUG - Captured session 4.
+May 26, 2025 18:53:27.346 [133338469964432] DEBUG - Captured session 5.
+May 26, 2025 18:53:27.346 [133338469964432] DEBUG - Captured session 6.
+May 26, 2025 18:53:27.346 [133338469964432] DEBUG - Captured session 7.
+May 26, 2025 18:53:27.346 [133338469964432] DEBUG - Captured session 8.
+May 26, 2025 18:53:27.346 [133338469964432] DEBUG - Captured session 9.
+May 26, 2025 18:53:27.346 [133338469964432] DEBUG - Captured session 10.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 11.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 12.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 13.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 14.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 15.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 16.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 17.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 18.
+May 26, 2025 18:53:27.347 [133338469964432] DEBUG - Captured session 19.
+May 26, 2025 18:53:27.370 [133338469964432] DEBUG - ChangestampAllocator: initialized to 0
+May 26, 2025 18:53:27.370 [133338469964432] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.39.4, threadsafe=1
+May 26, 2025 18:53:27.453 [133338469964432] INFO - Running migrations. (EPG 0)
+May 26, 2025 18:53:27.456 [133338469964432] DEBUG - Captured session 0.
+May 26, 2025 18:53:27.456 [133338469964432] DEBUG - Captured session 1.
+May 26, 2025 18:53:27.527 [133338462755640] DEBUG - [GPU] Cuda library was not found on the system
+May 26, 2025 18:53:27.648 [133338462755640] DEBUG - Grabber: Cleaning up orphaned grabs.
+May 26, 2025 18:53:27.648 [133338462755640] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+May 26, 2025 18:53:27.649 [133338469964432] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+May 26, 2025 18:53:27.649 [133338469964432] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+May 26, 2025 18:53:27.650 [133338445732664] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+May 26, 2025 18:53:27.651 [133338469964432] DEBUG - Opening 1 database sessions to library (), SQLite 3.39.4, threadsafe=1
+May 26, 2025 18:53:27.655 [133338439183160] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7" changed: -1 => 2025-05-18 19:04:53 (1747595093).
+May 26, 2025 18:53:27.655 [133338439183160] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2025-05-26 17:44:43 (1748281483).
+May 26, 2025 18:53:27.655 [133338439183160] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7"
+May 26, 2025 18:53:27.808 [133338439183160] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+May 26, 2025 18:53:27.808 [133338439183160] DEBUG - PluginRepository::setStartState: 1, startingSystem
+May 26, 2025 18:53:27.808 [133338439183160] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/System.bundle.
+May 26, 2025 18:53:27.809 [133338439183160] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+May 26, 2025 18:53:27.813 [133338439183160] DEBUG - Starting file watcher for com.plexapp.system
+May 26, 2025 18:53:27.813 [133338439183160] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+May 26, 2025 18:53:27.814 [133338439183160] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+May 26, 2025 18:53:27.818 [133338439183160] DEBUG - Spawned plug-in com.plexapp.system with PID 277
+May 26, 2025 18:53:27.818 [133338439183160] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+May 26, 2025 18:53:27.963 [133338462755640] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 1
+May 26, 2025 18:53:27.963 [133338462755640] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+May 26, 2025 18:53:27.963 [133338462755640] DEBUG - [MediaProviderManager/MetadataAgentManager] [tv.plex.agents.movie] provider added to map
+May 26, 2025 18:53:27.963 [133338462755640] DEBUG - [MediaProviderManager/MetadataAgentManager] [tv.plex.agents.series] provider added to map
+May 26, 2025 18:53:27.963 [133338462755640] DEBUG - [MediaProviderManager/MetadataAgentManager] [tv.plex.agents.music] provider added to map
+May 26, 2025 18:53:27.965 [133338462755640] DEBUG - [MediaProviderManager/MetadataAgentManager] [org.musicbrainz.agents.music] provider added to map
+May 26, 2025 18:53:29.126 [133338445732664] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.41.7.9799-5bce000f7" --version=1.41.7.9799-5bce000f7 --platform=Linux --platformVersion=6.8.0-1027-azure --serverUuid=e39a72266d046069c92aacf578d3218d4b7027d4 --userId=NOUSERID --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container"
+May 26, 2025 18:53:29.137 [133338445732664] DEBUG - [JobRunner] Jobs: Starting child process with pid 280
+May 26, 2025 18:53:29.260 [133338465229624] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 280 is 0 (success)
+May 26, 2025 18:53:31.151 [133338432764728] DEBUG - Request: [[::1]:35798 (Loopback)] GET /identity (2 live) #1
+May 26, 2025 18:53:31.152 [133338452847416] DEBUG - Completed: [[::1]:35798] 503 GET /identity (2 live) #1 0ms 375 bytes (pipelined: 1)
+May 26, 2025 18:53:32.783 [133338430540600] DEBUG - Request: [127.0.0.1:51726 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #7 GZIP Token ()
+May 26, 2025 18:53:32.785 [133338430540600] DEBUG - Request: [127.0.0.1:51712 (Loopback)] GET / (3 live) #3 GZIP Token ()
+May 26, 2025 18:53:32.785 [133338454956856] DEBUG - Completed: [127.0.0.1:51726] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #7 GZIP 3ms 436 bytes
+May 26, 2025 18:53:32.785 [133338454956856] DEBUG - Completed: [127.0.0.1:51712] 503 GET / (3 live) #3 GZIP 2ms 436 bytes
+May 26, 2025 18:53:34.326 [133338430540600] DEBUG - Request: [127.0.0.1:51730 (Loopback)] GET /servers (2 live) #8 GZIP Token ()
+May 26, 2025 18:53:34.330 [133338454956856] DEBUG - Completed: [127.0.0.1:51730] 503 GET /servers (2 live) #8 GZIP 3ms 436 bytes
+May 26, 2025 18:53:34.350 [133338439183160] DEBUG - Reading 486 bytes in the body, code is 200
+May 26, 2025 18:53:34.352 [133338439183160] DEBUG - [com.plexapp.system] Plug-in running on port 44083.
+May 26, 2025 18:53:34.352 [133338439183160] DEBUG -  * Plug-in handles prefix: /system
+May 26, 2025 18:53:34.352 [133338439183160] DEBUG -  * Plug-in handles prefix: /player
+May 26, 2025 18:53:34.355 [133338439183160] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+May 26, 2025 18:53:34.355 [133338439183160] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+May 26, 2025 18:53:34.355 [133338439183160] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+May 26, 2025 18:53:34.355 [133338439183160] DEBUG - Updating the list of agents known by the system.
+May 26, 2025 18:53:34.355 [133338439183160] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+May 26, 2025 18:53:34.355 [133338439183160] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:44083/system/agents
+May 26, 2025 18:53:34.357 [133338469964432] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+May 26, 2025 18:53:34.358 [133338469964432] DEBUG - Transcoder: Cleaning old transcode directories.
+May 26, 2025 18:53:34.361 [133338469964432] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
+May 26, 2025 18:53:34.366 [133338469964432] DEBUG - NetworkInterface: Starting watch thread.
+May 26, 2025 18:53:34.366 [133338469964432] DEBUG - Network change.
+May 26, 2025 18:53:34.366 [133338469964432] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - Detected primary interface: 10.0.4.229
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - Network interfaces:
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG -  * 2 eth0 (10.0.4.229) (7C-1E-52-F0-46-1F) (loopback: 0)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG -  * 6 wings0 (172.21.0.1) (02-42-A5-2F-5F-9E) (loopback: 0)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG -  * 9 br-f066a3805121 (172.20.0.1) (02-42-AF-4B-89-8C) (loopback: 0)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG -  * 22 br-de5f798842f0 (172.18.0.1) (02-42-96-88-AA-48) (loopback: 0)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG -  * 27 br-ab7b93007b67 (172.19.0.1) (02-42-A9-58-73-76) (loopback: 0)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - Creating NetworkServices singleton.
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - NetworkServices: Initializing...
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - NetworkService: Creating new service.
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - NetworkService: Quick dispatch of network change.
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - NetworkService: Creating new service.
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 26, 2025 18:53:34.368 [133338469964432] DEBUG - NetworkService: Quick dispatch of network change.
+May 26, 2025 18:53:34.370 [133338426256184] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+May 26, 2025 18:53:34.370 [133338424146744] DEBUG - Network change for advertiser.
+May 26, 2025 18:53:34.370 [133338424146744] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+May 26, 2025 18:53:34.374 [133338424146744] DEBUG - Network change for advertiser.
+May 26, 2025 18:53:34.374 [133338424146744] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+May 26, 2025 18:53:34.374 [133338469964432] DEBUG - NetworkService: Creating new service.
+May 26, 2025 18:53:34.374 [133338469964432] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 26, 2025 18:53:34.374 [133338469964432] DEBUG - NetworkService: Quick dispatch of network change.
+May 26, 2025 18:53:34.374 [133338424146744] DEBUG - Network change for advertiser.
+May 26, 2025 18:53:34.374 [133338424146744] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+May 26, 2025 18:53:34.374 [133338469964432] DEBUG - NetworkService: Creating new service.
+May 26, 2025 18:53:34.375 [133338469964432] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 26, 2025 18:53:34.375 [133338469964432] DEBUG - NetworkService: Quick dispatch of network change.
+May 26, 2025 18:53:34.375 [133338469964432] DEBUG - NetworkService: Creating new service.
+May 26, 2025 18:53:34.375 [133338469964432] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 26, 2025 18:53:34.375 [133338469964432] DEBUG - NetworkService: Quick dispatch of network change.
+May 26, 2025 18:53:34.375 [133338469964432] DEBUG - NetworkService: Creating new service.
+May 26, 2025 18:53:34.375 [133338424146744] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+May 26, 2025 18:53:34.375 [133338424146744] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 26, 2025 18:53:34.376 [133338469964432] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 26, 2025 18:53:34.376 [133338469964432] DEBUG - NetworkService: Quick dispatch of network change.
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Browsing on interface 10.0.4.229 on broadcast address 10.0.255.255 (index: 1)
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 2)
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 3)
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 4)
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 5)
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+May 26, 2025 18:53:34.377 [133338424146744] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 26, 2025 18:53:34.378 [133338424146744] DEBUG - NetworkService: Browsing on interface 10.0.4.229 on broadcast address 10.0.255.255 (index: 1)
+May 26, 2025 18:53:34.378 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 2)
+May 26, 2025 18:53:34.378 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 3)
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 4)
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 5)
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Browsing on interface 10.0.4.229 on broadcast address 239.255.255.250 (index: 0)
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 2)
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 3)
+May 26, 2025 18:53:34.379 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 239.255.255.250 (index: 4)
+May 26, 2025 18:53:34.384 [133338424146744] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (codespaces-1b4746)
+May 26, 2025 18:53:34.384 [133338424146744] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+May 26, 2025 18:53:34.384 [133338424146744] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+May 26, 2025 18:53:34.385 [133338424146744] DEBUG - [NSB/HCl#4] HTTP requesting GET http://127.0.0.1:44083/system/notify/serverUpdated?host=127.0.0.1
+May 26, 2025 18:53:34.385 [133338462755640] DEBUG - [HCl#5] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+May 26, 2025 18:53:34.385 [133338422037304] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+May 26, 2025 18:53:34.385 [133338422037304] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.41.7.9799-5bce000f7 32600
+May 26, 2025 18:53:34.385 [133338445732664] DEBUG - [DatabaseFixups] Running fix-ups.
+May 26, 2025 18:53:34.387 [133338469964432] DEBUG - Waiting for server condition to be signaled.
+May 26, 2025 18:53:34.387 [133338419927864] DEBUG - [HCl#6] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+May 26, 2025 18:53:34.388 [133338409380664] DEBUG - DVR: Starting up.
+May 26, 2025 18:53:34.393 [133338422037304] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 333
+May 26, 2025 18:53:34.395 [133338411490104] DEBUG - [HCl#7] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
+May 26, 2025 18:53:34.396 [133338407271224] DEBUG - MyPlex: Sending unclaimed device connections
+May 26, 2025 18:53:34.404 [133338407271224] DEBUG - [HCl#9] HTTP requesting POST https://plex.tv/devices/e39a72266d046069c92aacf578d3218d4b7027d4/unclaimed?Connection[][uri]=http://10.0.4.229:32400&Connection[][uri]=http://172.21.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400
+May 26, 2025 18:53:34.406 [133338409380664] DEBUG - Activity: registered new activity 50ef20a4-6ff8-433f-90af-9ce1bbbf110a - "Processing subscriptions"
+May 26, 2025 18:53:34.407 [133338445732664] DEBUG - [DatabaseFixups] Destroyed 0 transient items.
+May 26, 2025 18:53:34.410 [133338445732664] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+May 26, 2025 18:53:34.421 [133338400885560] DEBUG - [MediaProviderManager] we had 1 cloud providers online, we now have 1
+May 26, 2025 18:53:34.424 [133338400885560] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+May 26, 2025 18:53:34.728 [133338443606840] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.3s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+May 26, 2025 18:53:34.735 [133338443606840] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.4s) 200 response from GET http://127.0.0.1:44083/system/agents
+May 26, 2025 18:53:34.736 [133338439183160] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
+May 26, 2025 18:53:34.739 [133338439183160] DEBUG - The system knows about 12 agents.
+May 26, 2025 18:53:34.739 [133338394942264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/Fanart-TV.bundle.
+May 26, 2025 18:53:34.740 [133338392832824] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/Framework.bundle.
+May 26, 2025 18:53:34.742 [133338439183160] DEBUG - Waiting for 16 plug-ins to finish starting.
+May 26, 2025 18:53:34.742 [133338390723384] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/Media-Flags.bundle.
+May 26, 2025 18:53:34.745 [133338394942264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+May 26, 2025 18:53:34.745 [133338394942264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/PlexThemeMusic.bundle.
+May 26, 2025 18:53:34.748 [133338390723384] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/MoviePosterDB.bundle.
+May 26, 2025 18:53:34.750 [133338443606840] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.4s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+May 26, 2025 18:53:34.750 [133338392832824] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/LastFM.bundle.
+May 26, 2025 18:53:34.755 [133338394942264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+May 26, 2025 18:53:34.759 [133338394942264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/LyricFind.bundle.
+May 26, 2025 18:53:34.760 [133338432764728] DEBUG - Request: [127.0.0.1:51732 (Loopback)] GET /servers (2 live) #b GZIP Token ()
+May 26, 2025 18:53:34.758 [133338392832824] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+May 26, 2025 18:53:34.756 [133338390723384] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+May 26, 2025 18:53:34.764 [133338390723384] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/PlexMovie.bundle.
+May 26, 2025 18:53:34.770 [133338392832824] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/LocalMedia.bundle.
+May 26, 2025 18:53:34.773 [133338394942264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+May 26, 2025 18:53:34.773 [133338394942264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/Scanners.bundle.
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale sv
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale ro
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale he
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale no
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale de
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale it
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale fr
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale sk
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale cs_CZ
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale af
+May 26, 2025 18:53:34.777 [133338432764728] DEBUG - Translator: Found locale zh_CN
+May 26, 2025 18:53:34.780 [133338390723384] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+May 26, 2025 18:53:34.780 [133338390723384] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/Musicbrainz.bundle.
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale fi
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale sl
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale hu_HU
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale da
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale ru
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale et_EE
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale sr
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale nl
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale hu
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale ja_JP
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale ko
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale pl
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale pt_BR
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale es
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale pt
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale lt
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale ar
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale nl_BE
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale uk
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale en
+May 26, 2025 18:53:34.781 [133338432764728] DEBUG - Translator: Found locale hr_HR
+May 26, 2025 18:53:34.782 [133338394942264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/HTbackdrops.bundle.
+May 26, 2025 18:53:34.784 [133338390723384] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+May 26, 2025 18:53:34.784 [133338390723384] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/WebClient.bundle.
+May 26, 2025 18:53:34.786 [133338394942264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+May 26, 2025 18:53:34.786 [133338394942264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/TheTVDB.bundle.
+May 26, 2025 18:53:34.787 [133338390723384] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/PersonalMedia.bundle.
+May 26, 2025 18:53:34.790 [133338392832824] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+May 26, 2025 18:53:34.790 [133338392832824] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-5bce000f7/TheMovieDB.bundle.
+May 26, 2025 18:53:34.794 [133338443606840] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.4s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=
+May 26, 2025 18:53:34.796 [133338390723384] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+May 26, 2025 18:53:34.797 [133338394942264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+May 26, 2025 18:53:34.798 [133338411490104] DEBUG - [HCl#a] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+May 26, 2025 18:53:34.800 [133338392832824] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+May 26, 2025 18:53:34.803 [133338439183160] DEBUG - Starting scheduled updates, every 3600 seconds
+May 26, 2025 18:53:34.803 [133338439183160] INFO - LibraryUpdateManager path watching is disabled
+May 26, 2025 18:53:34.804 [133338409380664] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+May 26, 2025 18:53:34.804 [133338439183160] DEBUG - Done waiting for all plug-ins to start.
+May 26, 2025 18:53:34.804 [133338439183160] DEBUG - PluginRepository::setStartState: 3, complete
+May 26, 2025 18:53:34.807 [133338443606840] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.4s) 200 response from POST https://plex.tv/devices/e39a72266d046069c92aacf578d3218d4b7027d4/unclaimed?Connection[][uri]=http://10.0.4.229:32400&Connection[][uri]=http://172.21.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400
+May 26, 2025 18:53:34.824 [133338454956856] DEBUG - Completed: [127.0.0.1:51732] 200 GET /servers (2 live) #b GZIP 65ms 494 bytes
+May 26, 2025 18:53:34.825 [133338409380664] DEBUG - [Req#10] Starting file watcher for com.plexapp.agents.imdb
+May 26, 2025 18:53:34.825 [133338409380664] DEBUG - [Req#10] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+May 26, 2025 18:53:34.825 [133338409380664] DEBUG - [Req#10] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+May 26, 2025 18:53:34.826 [133338409380664] DEBUG - [Req#10] Spawned plug-in com.plexapp.agents.imdb with PID 369
+May 26, 2025 18:53:34.826 [133338409380664] DEBUG - [Req#10] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+May 26, 2025 18:53:34.882 [133338443606840] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.1s) 401 response from GET https://plex.tv/api/v2/server/users/features (reused)
+May 26, 2025 18:53:34.882 [133338434931512] ERROR - MyPlex: Error 401 requesting JSON from: https://plex.tv/api/v2/server/users/features
+May 26, 2025 18:53:34.883 [133338411490104] WARN - FeatureManager: Couldn't get features. Trying again soon.
+May 26, 2025 18:53:34.967 [133338443606840] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.6s) 200 response from GET http://127.0.0.1:44083/system/notify/serverUpdated?host=127.0.0.1
+May 26, 2025 18:53:34.969 [133338424146744] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+May 26, 2025 18:53:35.319 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.320 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=32, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:35.320 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.321 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.328 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.328 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.328 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:35.328 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.328 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.329 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.329 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.329 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=32, flags=0x1002, change=0x0
+May 26, 2025 18:53:35.329 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.329 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.345 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.347 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.347 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1002, change=0x0
+May 26, 2025 18:53:35.347 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.347 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.347 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.357 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.357 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1002, change=0x100
+May 26, 2025 18:53:35.357 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.357 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.358 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.358 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.358 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:53:35.358 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.358 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.364 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.374 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.374 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x1002, change=0x0
+May 26, 2025 18:53:35.374 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.374 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.375 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.386 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.386 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1003, change=0x1
+May 26, 2025 18:53:35.386 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.386 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x1003, change=0x0
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1003, change=0x0
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.392 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.393 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:35.393 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:35.393 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x1003, change=0x0
+May 26, 2025 18:53:35.393 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:35.393 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:35.397 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:36.071 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=672, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:36.071 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=32, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:36.077 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:36.077 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x11043, change=0x0
+May 26, 2025 18:53:36.077 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:36.078 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:36.079 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:36.081 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x11043, change=0x0
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x11043, change=0x0
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:36.082 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:36.085 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:36.085 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:36.085 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x11043, change=0x0
+May 26, 2025 18:53:36.086 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:36.086 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:36.096 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:36.512 [133338432764728] DEBUG - Request: [[::1]:37266 (Loopback)] GET /identity (2 live) #f
+May 26, 2025 18:53:36.514 [133338454956856] DEBUG - Completed: [[::1]:37266] 200 GET /identity (2 live) #f 4ms 417 bytes (pipelined: 1)
+May 26, 2025 18:53:36.985 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:36.986 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x1003, change=0x0
+May 26, 2025 18:53:36.986 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:36.986 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:36.996 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:37.004 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:37.005 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1003, change=0x0
+May 26, 2025 18:53:37.005 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:37.005 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:37.013 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:37.033 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:37.033 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=32, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:37.035 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:37.043 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:37.044 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:37.049 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:37.049 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1002, change=0x41
+May 26, 2025 18:53:37.049 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:37.049 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:37.059 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:37.060 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:37.060 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x1002, change=0x0
+May 26, 2025 18:53:37.061 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:37.061 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:37.068 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:37.069 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:37.069 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=32, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:37.069 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:37.069 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x1002, change=0x0
+May 26, 2025 18:53:37.069 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:37.069 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:37.082 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:37.082 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:37.082 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=33, flags=0x1002, change=0x0
+May 26, 2025 18:53:37.082 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:37.082 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1043, change=0x0
+May 26, 2025 18:53:37.082 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:37.082 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:37.083 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:37.083 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:37.083 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=33, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:37.630 [133338430540600] DEBUG - Request: [127.0.0.1:40094 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (2 live) #12 GZIP Token ()
+May 26, 2025 18:53:37.630 [133338430540600] DEBUG - [Req#12] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+May 26, 2025 18:53:37.631 [133338430540600] DEBUG - [Req#12/HCl#b] HTTP requesting GET http://127.0.0.1:44083/system/messaging/clear_events/com.plexapp.agents.imdb
+May 26, 2025 18:53:37.655 [133338388581176] DEBUG - DVR:Device: Discovering and refreshing all devices.
+May 26, 2025 18:53:37.655 [133338388581176] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+May 26, 2025 18:53:37.655 [133338388581176] DEBUG - [HCl#c] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+May 26, 2025 18:53:37.693 [133338443606840] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:44083/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+May 26, 2025 18:53:37.695 [133338430540600] DEBUG - [Req#12] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+May 26, 2025 18:53:37.696 [133338454956856] DEBUG - Completed: [127.0.0.1:40094] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (2 live) #12 GZIP 72ms 280 bytes
+May 26, 2025 18:53:37.989 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:37.990 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:53:37.990 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:37.990 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:37.992 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:38.104 [133338432764728] DEBUG - Request: [127.0.0.1:40104 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #15 GZIP Token ()
+May 26, 2025 18:53:38.104 [133338432764728] DEBUG - [Req#15] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+May 26, 2025 18:53:38.105 [133338432764728] DEBUG - [Req#15/HCl#10] HTTP requesting GET http://127.0.0.1:44083/:/plugins/com.plexapp.system/resourceHashes
+May 26, 2025 18:53:38.460 [133338443606840] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.4s) 404 response from GET http://127.0.0.1:44083/:/plugins/com.plexapp.system/resourceHashes (reused)
+May 26, 2025 18:53:38.463 [133338432764728] DEBUG - [Req#15] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+May 26, 2025 18:53:38.463 [133338454956856] DEBUG - Completed: [127.0.0.1:40104] 404 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #15 GZIP 360ms 261 bytes
+May 26, 2025 18:53:38.489 [133338430540600] DEBUG - Request: [127.0.0.1:40112 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) #18 GZIP Token ()
+May 26, 2025 18:53:38.489 [133338430540600] DEBUG - [Req#18] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 26, 2025 18:53:38.489 [133338430540600] DEBUG - [Req#18/HCl#11] HTTP requesting GET http://127.0.0.1:44083/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 26, 2025 18:53:38.494 [133338432764728] DEBUG - Request: [127.0.0.1:40124 (Loopback)] GET / (4 live) #1a GZIP Token ()
+May 26, 2025 18:53:38.504 [133338452847416] DEBUG - Completed: [127.0.0.1:40124] 200 GET / (4 live) #1a GZIP 14ms 2571 bytes
+May 26, 2025 18:53:38.540 [133338443606840] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:44083/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 26, 2025 18:53:38.542 [133338430540600] DEBUG - [Req#18] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+May 26, 2025 18:53:38.544 [133338452847416] DEBUG - Completed: [127.0.0.1:40112] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #18 GZIP 55ms 746 bytes
+May 26, 2025 18:53:38.565 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:38.565 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=15, flags=0x11043, change=0x0
+May 26, 2025 18:53:38.565 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:38.565 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:38.567 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:38.567 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:38.567 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=13, flags=0x11043, change=0x0
+May 26, 2025 18:53:38.567 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:38.567 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:38.567 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:39.077 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:39.077 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=17, flags=0x11043, change=0x0
+May 26, 2025 18:53:39.077 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:39.077 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:39.078 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:40.136 [133338443606840] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (2.5s) 200 response from POST http://127.0.0.1:32600/devices/discover
+May 26, 2025 18:53:40.212 [133338432764728] DEBUG - Request: [127.0.0.1:40130 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (2 live) #1b GZIP Token ()
+May 26, 2025 18:53:40.215 [133338432764728] DEBUG - [Req#1b] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 26, 2025 18:53:40.217 [133338432764728] DEBUG - [Req#1b/HCl#12] HTTP requesting GET http://127.0.0.1:44083/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 26, 2025 18:53:40.235 [133338443606840] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:44083/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 26, 2025 18:53:40.237 [133338432764728] DEBUG - [Req#1b] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+May 26, 2025 18:53:40.240 [133338454956856] DEBUG - Completed: [127.0.0.1:40130] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #1b GZIP 27ms 415 bytes
+May 26, 2025 18:53:40.254 [133338409380664] DEBUG - [Req#10] Reading 148 bytes in the body, code is 200
+May 26, 2025 18:53:40.255 [133338409380664] DEBUG - [Req#10] [com.plexapp.agents.imdb] Plug-in running on port 34861.
+May 26, 2025 18:53:40.255 [133338409380664] DEBUG - [Req#10] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+May 26, 2025 18:53:40.255 [133338409380664] DEBUG - [Req#10] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+May 26, 2025 18:53:40.255 [133338409380664] DEBUG - [Req#10/HCl#13] HTTP requesting GET http://127.0.0.1:34861/:/plugins/com.plexapp.agents.imdb/prefs
+May 26, 2025 18:53:40.316 [133338443606840] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:34861/:/plugins/com.plexapp.agents.imdb/prefs
+May 26, 2025 18:53:40.317 [133338409380664] DEBUG - [Req#10] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+May 26, 2025 18:53:40.318 [133338409380664] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 879f80630edd6e3866a66f90b28c3d7e95e9aa57
+May 26, 2025 18:53:40.320 [133338409380664] DEBUG - IVA: Downloading trailer lists.
+May 26, 2025 18:53:40.466 [133338434931512] ERROR - downloadContainer: expected MediaContainer element, found Error
+May 26, 2025 18:53:40.505 [133338409380664] ERROR - IVA: Error downloading trailers for source 1.
+May 26, 2025 18:53:40.554 [133338434931512] ERROR - downloadContainer: expected MediaContainer element, found Error
+May 26, 2025 18:53:40.555 [133338409380664] ERROR - IVA: Error downloading trailers for source 2.
+May 26, 2025 18:53:41.723 [133338432764728] DEBUG - Request: [[::1]:37282 (Loopback)] GET /identity (2 live) #1e
+May 26, 2025 18:53:41.725 [133338454956856] DEBUG - Completed: [[::1]:37282] 200 GET /identity (2 live) #1e 1ms 417 bytes (pipelined: 1)
+May 26, 2025 18:53:42.664 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:42.664 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=24, flags=0x11043, change=0x0
+May 26, 2025 18:53:42.664 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:42.664 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:42.665 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.201 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.201 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=34, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:43.201 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.201 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.208 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.208 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.208 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:43.208 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.208 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.213 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.213 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.215 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1002, change=0x0
+May 26, 2025 18:53:43.215 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.215 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.215 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1002, change=0x100
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.218 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.222 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.224 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.224 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x1002, change=0x0
+May 26, 2025 18:53:43.225 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.226 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.226 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1003, change=0x1
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x1003, change=0x0
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.229 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=34, flags=0x1002, change=0x0
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1003, change=0x0
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.231 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.234 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.234 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.234 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x1003, change=0x0
+May 26, 2025 18:53:43.234 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.234 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.239 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.510 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=672, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:43.510 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=34, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x11043, change=0x0
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x11043, change=0x0
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.517 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.524 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.525 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.525 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x11043, change=0x0
+May 26, 2025 18:53:43.525 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.526 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.528 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.529 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.529 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x11043, change=0x0
+May 26, 2025 18:53:43.530 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.530 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.530 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.910 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.910 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x1003, change=0x0
+May 26, 2025 18:53:43.910 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.910 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.911 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.911 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.911 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1003, change=0x0
+May 26, 2025 18:53:43.911 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.911 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.912 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.917 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.917 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=34, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:43.917 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.917 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.918 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.928 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.928 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1002, change=0x41
+May 26, 2025 18:53:43.928 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.928 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.939 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x1002, change=0x0
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=34, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x1002, change=0x0
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.943 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.953 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.953 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:43.954 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=35, flags=0x1002, change=0x0
+May 26, 2025 18:53:43.954 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:43.954 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1043, change=0x0
+May 26, 2025 18:53:43.955 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:43.955 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:43.955 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:43.956 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:43.956 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=35, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:44.205 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:44.205 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:53:44.205 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:44.205 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:44.206 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:44.407 [133338398718776] DEBUG - Grabber: Cleaning up orphaned grabs.
+May 26, 2025 18:53:44.407 [133338398718776] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+May 26, 2025 18:53:44.407 [133338398718776] DEBUG - Activity: registered new activity e68b888e-491b-4752-8d67-e5eed46b164b - "Processing subscriptions"
+May 26, 2025 18:53:44.407 [133338398718776] DEBUG - Subscription: Scheduling subscriptions.
+May 26, 2025 18:53:44.408 [133338398718776] DEBUG - Subscription: Initialized 0 schedulers.
+May 26, 2025 18:53:44.408 [133338398718776] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+May 26, 2025 18:53:44.408 [133338398718776] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+May 26, 2025 18:53:44.408 [133338398718776] DEBUG - Activity: Ended activity e68b888e-491b-4752-8d67-e5eed46b164b.
+May 26, 2025 18:53:44.408 [133338398718776] DEBUG - Subscription: There are 0 active grabs at the end.
+May 26, 2025 18:53:44.408 [133338398718776] DEBUG - Activity: Ended activity 50ef20a4-6ff8-433f-90af-9ce1bbbf110a.
+May 26, 2025 18:53:44.408 [133338398718776] DEBUG - Subscription: Refreshed all content in 1 ms.
+May 26, 2025 18:53:44.708 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:44.708 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=29, flags=0x11043, change=0x0
+May 26, 2025 18:53:44.708 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:44.708 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:44.709 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:46.805 [133338430540600] DEBUG - Request: [[::1]:50072 (Loopback)] GET /identity (2 live) #22
+May 26, 2025 18:53:46.805 [133338454956856] DEBUG - Completed: [[::1]:50072] 200 GET /identity (2 live) #22 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:53:51.864 [133338430540600] DEBUG - Request: [[::1]:50088 (Loopback)] GET /identity (2 live) #25
+May 26, 2025 18:53:51.864 [133338452847416] DEBUG - Completed: [[::1]:50088] 200 GET /identity (2 live) #25 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:53:56.632 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.632 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=36, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:56.632 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.632 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.633 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.633 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.633 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:56.633 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.633 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.634 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1002, change=0x0
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1002, change=0x100
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.638 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.641 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.641 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.641 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:53:56.641 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.641 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x1002, change=0x0
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1003, change=0x1
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.643 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.644 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.644 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.644 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x1003, change=0x0
+May 26, 2025 18:53:56.644 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.644 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.647 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.647 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.647 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=36, flags=0x1002, change=0x0
+May 26, 2025 18:53:56.647 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.647 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.647 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.649 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.649 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1003, change=0x0
+May 26, 2025 18:53:56.649 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.649 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.651 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.651 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.651 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x1003, change=0x0
+May 26, 2025 18:53:56.651 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.651 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.652 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.841 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=672, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:56.841 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=36, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x11043, change=0x0
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x11043, change=0x0
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.847 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.848 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.848 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.848 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x11043, change=0x0
+May 26, 2025 18:53:56.848 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.848 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.853 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.853 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:56.853 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x11043, change=0x0
+May 26, 2025 18:53:56.854 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:56.854 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:56.854 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:56.948 [133338430540600] DEBUG - Request: [[::1]:36366 (Loopback)] GET /identity (2 live) #28
+May 26, 2025 18:53:56.948 [133338452847416] DEBUG - Completed: [[::1]:36366] 200 GET /identity (2 live) #28 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:53:57.112 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.112 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x1003, change=0x0
+May 26, 2025 18:53:57.113 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.113 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1003, change=0x0
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=36, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.124 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.126 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:57.137 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.137 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1002, change=0x41
+May 26, 2025 18:53:57.137 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.137 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.145 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:57.149 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.149 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x1002, change=0x0
+May 26, 2025 18:53:57.150 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.150 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.152 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:57.152 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:57.152 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=36, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:57.153 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.154 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x1002, change=0x0
+May 26, 2025 18:53:57.154 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.154 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.155 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:57.155 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:57.155 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37, flags=0x1002, change=0x0
+May 26, 2025 18:53:57.155 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.155 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1043, change=0x0
+May 26, 2025 18:53:57.155 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.155 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.157 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:53:57.158 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:53:57.158 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37, flags=0x1002, change=0xffffffff
+May 26, 2025 18:53:57.637 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:53:57.637 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:53:57.637 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:53:57.637 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:53:57.638 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:02.034 [133338430540600] DEBUG - Request: [[::1]:36380 (Loopback)] GET /identity (2 live) #2b
+May 26, 2025 18:54:02.035 [133338452847416] DEBUG - Completed: [[::1]:36380] 200 GET /identity (2 live) #2b 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:07.091 [133338430540600] DEBUG - Request: [[::1]:44378 (Loopback)] GET /identity (2 live) #2e
+May 26, 2025 18:54:07.091 [133338454956856] DEBUG - Completed: [[::1]:44378] 200 GET /identity (2 live) #2e 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:12.146 [133338430540600] DEBUG - Request: [[::1]:44392 (Loopback)] GET /identity (2 live) #31
+May 26, 2025 18:54:12.147 [133338454956856] DEBUG - Completed: [[::1]:44392] 200 GET /identity (2 live) #31 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:17.201 [133338430540600] DEBUG - Request: [[::1]:38658 (Loopback)] GET /identity (2 live) #34
+May 26, 2025 18:54:17.201 [133338454956856] DEBUG - Completed: [[::1]:38658] 200 GET /identity (2 live) #34 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:22.256 [133338430540600] DEBUG - Request: [[::1]:38668 (Loopback)] GET /identity (2 live) #37
+May 26, 2025 18:54:22.257 [133338452847416] DEBUG - Completed: [[::1]:38668] 200 GET /identity (2 live) #37 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:22.664 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.664 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=38, flags=0x1002, change=0xffffffff
+May 26, 2025 18:54:22.664 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.664 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1002, change=0xffffffff
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1002, change=0x0
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.672 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.673 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.673 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.673 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1002, change=0x100
+May 26, 2025 18:54:22.673 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.673 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.677 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.677 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.677 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:54:22.677 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.677 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.678 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.678 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.678 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x1002, change=0x0
+May 26, 2025 18:54:22.678 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.678 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.685 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.685 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.685 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1003, change=0x1
+May 26, 2025 18:54:22.685 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.685 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.685 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.687 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.687 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x1003, change=0x0
+May 26, 2025 18:54:22.687 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.687 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.688 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.689 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.689 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1003, change=0x0
+May 26, 2025 18:54:22.689 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.689 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.690 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.690 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.690 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x1003, change=0x0
+May 26, 2025 18:54:22.690 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.690 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.690 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:22.691 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:22.691 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=38, flags=0x1002, change=0x0
+May 26, 2025 18:54:22.691 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:22.691 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:22.692 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.005 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=672, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:54:23.007 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=38, flags=0x1002, change=0xffffffff
+May 26, 2025 18:54:23.016 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.017 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x11043, change=0x0
+May 26, 2025 18:54:23.017 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.017 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.019 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.019 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.019 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x11043, change=0x0
+May 26, 2025 18:54:23.019 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.019 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.025 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.027 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.027 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x11043, change=0x0
+May 26, 2025 18:54:23.027 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.027 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.028 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.028 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.028 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x11043, change=0x0
+May 26, 2025 18:54:23.028 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.028 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.033 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.320 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.320 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x1003, change=0x0
+May 26, 2025 18:54:23.320 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.320 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.321 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.321 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.321 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1003, change=0x0
+May 26, 2025 18:54:23.321 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.321 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.322 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.333 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.333 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=38, flags=0x1002, change=0xffffffff
+May 26, 2025 18:54:23.333 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.333 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.334 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.337 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.337 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1002, change=0x41
+May 26, 2025 18:54:23.337 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.337 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x1002, change=0x0
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=38, flags=0x1002, change=0xffffffff
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x1002, change=0x0
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.344 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=39, flags=0x1002, change=0x0
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1043, change=0x0
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:54:23.345 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=39, flags=0x1002, change=0xffffffff
+May 26, 2025 18:54:23.669 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:54:23.669 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:54:23.669 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:54:23.669 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:54:23.669 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:54:27.314 [133338430540600] DEBUG - Request: [[::1]:45284 (Loopback)] GET /identity (2 live) #3a
+May 26, 2025 18:54:27.315 [133338454956856] DEBUG - Completed: [[::1]:45284] 200 GET /identity (2 live) #3a 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:32.389 [133338430540600] DEBUG - Request: [[::1]:45288 (Loopback)] GET /identity (2 live) #3d
+May 26, 2025 18:54:32.389 [133338454956856] DEBUG - Completed: [[::1]:45288] 200 GET /identity (2 live) #3d 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:37.448 [133338430540600] DEBUG - Request: [[::1]:44192 (Loopback)] GET /identity (2 live) #40
+May 26, 2025 18:54:37.448 [133338452847416] DEBUG - Completed: [[::1]:44192] 200 GET /identity (2 live) #40 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:42.504 [133338430540600] DEBUG - Request: [[::1]:44196 (Loopback)] GET /identity (2 live) #43
+May 26, 2025 18:54:42.505 [133338452847416] DEBUG - Completed: [[::1]:44196] 200 GET /identity (2 live) #43 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:47.564 [133338430540600] DEBUG - Request: [[::1]:53600 (Loopback)] GET /identity (2 live) #46
+May 26, 2025 18:54:47.564 [133338454956856] DEBUG - Completed: [[::1]:53600] 200 GET /identity (2 live) #46 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:52.630 [133338430540600] DEBUG - Request: [[::1]:53612 (Loopback)] GET /identity (2 live) #49
+May 26, 2025 18:54:52.630 [133338454956856] DEBUG - Completed: [[::1]:53612] 200 GET /identity (2 live) #49 1ms 417 bytes (pipelined: 1)
+May 26, 2025 18:54:57.707 [133338430540600] DEBUG - Request: [[::1]:33012 (Loopback)] GET /identity (2 live) #4c
+May 26, 2025 18:54:57.709 [133338452847416] DEBUG - Completed: [[::1]:33012] 200 GET /identity (2 live) #4c 1ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:02.765 [133338430540600] DEBUG - Request: [[::1]:33016 (Loopback)] GET /identity (2 live) #4f
+May 26, 2025 18:55:02.765 [133338454956856] DEBUG - Completed: [[::1]:33016] 200 GET /identity (2 live) #4f 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:07.824 [133338430540600] DEBUG - Request: [[::1]:44782 (Loopback)] GET /identity (2 live) #52
+May 26, 2025 18:55:07.824 [133338454956856] DEBUG - Completed: [[::1]:44782] 200 GET /identity (2 live) #52 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:12.881 [133338430540600] DEBUG - Request: [[::1]:44798 (Loopback)] GET /identity (2 live) #55
+May 26, 2025 18:55:12.882 [133338452847416] DEBUG - Completed: [[::1]:44798] 200 GET /identity (2 live) #55 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:14.465 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.465 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=40, flags=0x1002, change=0xffffffff
+May 26, 2025 18:55:14.465 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.465 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.467 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.467 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.467 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1002, change=0xffffffff
+May 26, 2025 18:55:14.467 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.467 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.474 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.476 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.476 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=40, flags=0x1002, change=0x0
+May 26, 2025 18:55:14.476 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.476 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.478 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.480 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.481 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1002, change=0x0
+May 26, 2025 18:55:14.481 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.481 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.483 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.483 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1002, change=0x0
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1002, change=0x100
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.484 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.488 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.489 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.489 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:55:14.489 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.489 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.490 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.493 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.493 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x1002, change=0x0
+May 26, 2025 18:55:14.493 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.493 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.494 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.494 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.494 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1003, change=0x1
+May 26, 2025 18:55:14.494 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.494 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.498 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.498 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.498 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x1003, change=0x0
+May 26, 2025 18:55:14.498 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.498 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.507 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.708 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=672, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:55:14.708 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=40, flags=0x1002, change=0xffffffff
+May 26, 2025 18:55:14.714 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.714 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x11043, change=0x0
+May 26, 2025 18:55:14.714 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.714 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.717 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.721 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.721 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x11043, change=0x0
+May 26, 2025 18:55:14.721 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.721 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.722 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.722 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.722 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x11043, change=0x0
+May 26, 2025 18:55:14.722 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.722 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.724 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.724 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.724 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x11043, change=0x0
+May 26, 2025 18:55:14.724 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.724 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.725 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.950 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.950 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x1003, change=0x0
+May 26, 2025 18:55:14.951 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.951 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.951 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.951 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.951 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1003, change=0x0
+May 26, 2025 18:55:14.951 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.951 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.952 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.960 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.960 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=40, flags=0x1002, change=0xffffffff
+May 26, 2025 18:55:14.960 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.960 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.961 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.977 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.977 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1002, change=0x41
+May 26, 2025 18:55:14.977 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.977 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.988 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.988 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.988 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x1002, change=0x0
+May 26, 2025 18:55:14.988 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.988 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.991 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.991 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:55:14.991 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=40, flags=0x1002, change=0xffffffff
+May 26, 2025 18:55:14.991 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.991 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x1002, change=0x0
+May 26, 2025 18:55:14.991 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.991 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.993 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.993 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:55:14.993 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=41, flags=0x1002, change=0x0
+May 26, 2025 18:55:14.993 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:14.993 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1043, change=0x0
+May 26, 2025 18:55:14.993 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:14.993 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:14.994 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:14.994 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:55:14.994 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=41, flags=0x1002, change=0xffffffff
+May 26, 2025 18:55:15.525 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:55:15.525 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:55:15.525 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:55:15.525 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:55:15.526 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:55:17.937 [133338430540600] DEBUG - Request: [[::1]:43776 (Loopback)] GET /identity (2 live) #58
+May 26, 2025 18:55:17.937 [133338454956856] DEBUG - Completed: [[::1]:43776] 200 GET /identity (2 live) #58 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:22.996 [133338430540600] DEBUG - Request: [[::1]:43792 (Loopback)] GET /identity (1 live) #5b
+May 26, 2025 18:55:22.996 [133338452847416] DEBUG - Completed: [[::1]:43792] 200 GET /identity (1 live) #5b 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:27.172 [133338445732664] DEBUG - BPQ: [Starting] -> [Processing]
+May 26, 2025 18:55:27.173 [133338445732664] DEBUG - BPQ: generating queue items from 0 generator(s)
+May 26, 2025 18:55:27.173 [133338445732664] DEBUG - BPQ: generated 0 item(s) for queue
+May 26, 2025 18:55:27.173 [133338445732664] DEBUG - BPQ: [Processing] -> [Idle]
+May 26, 2025 18:55:28.051 [133338430540600] DEBUG - Request: [[::1]:49150 (Loopback)] GET /identity (2 live) #5f
+May 26, 2025 18:55:28.051 [133338452847416] DEBUG - Completed: [[::1]:49150] 200 GET /identity (2 live) #5f 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:33.108 [133338430540600] DEBUG - Request: [[::1]:49154 (Loopback)] GET /identity (2 live) #61
+May 26, 2025 18:55:33.108 [133338454956856] DEBUG - Completed: [[::1]:49154] 200 GET /identity (2 live) #61 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:34.327 [133338430540600] DEBUG - Request: [127.0.0.1:52802 (Loopback)] GET /servers (2 live) #64 GZIP Token ()
+May 26, 2025 18:55:34.327 [133338454956856] DEBUG - Completed: [127.0.0.1:52802] 200 GET /servers (2 live) #64 GZIP 0ms 494 bytes
+May 26, 2025 18:55:34.330 [133338430540600] DEBUG - Request: [127.0.0.1:52814 (Loopback)] GET / (2 live) #67 GZIP Token ()
+May 26, 2025 18:55:34.330 [133338454956856] DEBUG - Completed: [127.0.0.1:52814] 200 GET / (2 live) #67 GZIP 0ms 2571 bytes
+May 26, 2025 18:55:34.333 [133338430540600] DEBUG - Request: [127.0.0.1:52824 (Loopback)] GET /library/sections (2 live) #69 GZIP Token ()
+May 26, 2025 18:55:34.335 [133338454956856] DEBUG - Completed: [127.0.0.1:52824] 200 GET /library/sections (2 live) #69 GZIP 2ms 403 bytes
+May 26, 2025 18:55:34.337 [133338430540600] DEBUG - Request: [127.0.0.1:52832 (Loopback)] GET /channels/all (2 live) #6b GZIP Token ()
+May 26, 2025 18:55:34.337 [133338454956856] DEBUG - Completed: [127.0.0.1:52832] 200 GET /channels/all (2 live) #6b GZIP 0ms 387 bytes
+May 26, 2025 18:55:34.340 [133338430540600] DEBUG - Request: [127.0.0.1:52844 (Loopback)] GET /library/sections (2 live) #6d GZIP Token ()
+May 26, 2025 18:55:34.340 [133338454956856] DEBUG - Completed: [127.0.0.1:52844] 200 GET /library/sections (2 live) #6d GZIP 0ms 403 bytes
+May 26, 2025 18:55:34.341 [133338430540600] DEBUG - Request: [127.0.0.1:52858 (Loopback)] GET /channels/all (2 live) #6f GZIP Token ()
+May 26, 2025 18:55:34.342 [133338454956856] DEBUG - Completed: [127.0.0.1:52858] 200 GET /channels/all (2 live) #6f GZIP 0ms 387 bytes
+May 26, 2025 18:55:38.165 [133338430540600] DEBUG - Request: [[::1]:41250 (Loopback)] GET /identity (2 live) #71
+May 26, 2025 18:55:38.165 [133338452847416] DEBUG - Completed: [[::1]:41250] 200 GET /identity (2 live) #71 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:43.220 [133338430540600] DEBUG - Request: [[::1]:41266 (Loopback)] GET /identity (2 live) #73
+May 26, 2025 18:55:43.220 [133338454956856] DEBUG - Completed: [[::1]:41266] 200 GET /identity (2 live) #73 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:48.282 [133338430540600] DEBUG - Request: [[::1]:55382 (Loopback)] GET /identity (2 live) #76
+May 26, 2025 18:55:48.282 [133338454956856] DEBUG - Completed: [[::1]:55382] 200 GET /identity (2 live) #76 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:53.339 [133338430540600] DEBUG - Request: [[::1]:55392 (Loopback)] GET /identity (2 live) #79
+May 26, 2025 18:55:53.339 [133338452847416] DEBUG - Completed: [[::1]:55392] 200 GET /identity (2 live) #79 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:55:58.433 [133338430540600] DEBUG - Request: [[::1]:38762 (Loopback)] GET /identity (2 live) #7c
+May 26, 2025 18:55:58.434 [133338454956856] DEBUG - Completed: [[::1]:38762] 200 GET /identity (2 live) #7c 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:03.538 [133338430540600] DEBUG - Request: [[::1]:38770 (Loopback)] GET /identity (2 live) #7f
+May 26, 2025 18:56:03.538 [133338454956856] DEBUG - Completed: [[::1]:38770] 200 GET /identity (2 live) #7f 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:08.599 [133338430540600] DEBUG - Request: [[::1]:38388 (Loopback)] GET /identity (2 live) #82
+May 26, 2025 18:56:08.599 [133338452847416] DEBUG - Completed: [[::1]:38388] 200 GET /identity (2 live) #82 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:13.654 [133338430540600] DEBUG - Request: [[::1]:38394 (Loopback)] GET /identity (2 live) #85
+May 26, 2025 18:56:13.654 [133338452847416] DEBUG - Completed: [[::1]:38394] 200 GET /identity (2 live) #85 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:14.905 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.905 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=42, flags=0x1002, change=0xffffffff
+May 26, 2025 18:56:14.905 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.905 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.910 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.910 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.910 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1002, change=0xffffffff
+May 26, 2025 18:56:14.910 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.910 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.911 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.911 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.911 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1002, change=0x0
+May 26, 2025 18:56:14.911 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.911 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.916 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.916 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.917 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1002, change=0x100
+May 26, 2025 18:56:14.917 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.917 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.919 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.920 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.920 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:56:14.921 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.921 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.924 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.924 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.924 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x1002, change=0x0
+May 26, 2025 18:56:14.924 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.924 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.927 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.927 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.928 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1003, change=0x1
+May 26, 2025 18:56:14.928 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.928 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.932 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.935 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.935 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x1003, change=0x0
+May 26, 2025 18:56:14.935 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.935 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.936 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.937 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.939 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=42, flags=0x1002, change=0x0
+May 26, 2025 18:56:14.939 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.939 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.939 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.941 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.941 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1003, change=0x0
+May 26, 2025 18:56:14.941 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.941 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.946 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:14.947 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:14.950 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x1003, change=0x0
+May 26, 2025 18:56:14.950 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:14.950 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:14.951 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.213 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=672, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:56:15.213 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=42, flags=0x1002, change=0xffffffff
+May 26, 2025 18:56:15.216 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.216 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x11043, change=0x0
+May 26, 2025 18:56:15.216 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.216 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.217 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.217 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.217 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x11043, change=0x0
+May 26, 2025 18:56:15.217 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.217 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.223 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.223 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.223 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x11043, change=0x0
+May 26, 2025 18:56:15.223 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.223 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.224 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.225 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.226 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x11043, change=0x0
+May 26, 2025 18:56:15.226 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.226 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.227 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.435 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.436 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x1003, change=0x0
+May 26, 2025 18:56:15.436 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.436 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.444 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.444 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.444 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1003, change=0x0
+May 26, 2025 18:56:15.444 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.444 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.445 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.445 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.445 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=42, flags=0x1002, change=0xffffffff
+May 26, 2025 18:56:15.445 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.445 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.447 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.452 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.452 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1002, change=0x41
+May 26, 2025 18:56:15.452 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.452 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.459 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.459 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.459 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x1002, change=0x0
+May 26, 2025 18:56:15.459 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.459 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.462 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.462 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:56:15.462 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=42, flags=0x1002, change=0xffffffff
+May 26, 2025 18:56:15.462 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.462 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x1002, change=0x0
+May 26, 2025 18:56:15.462 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.462 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=43, flags=0x1002, change=0x0
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1043, change=0x0
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:56:15.463 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=43, flags=0x1002, change=0xffffffff
+May 26, 2025 18:56:15.909 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:56:15.909 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:56:15.909 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:56:15.909 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:56:15.909 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:56:18.727 [133338430540600] DEBUG - Request: [[::1]:38254 (Loopback)] GET /identity (2 live) #88
+May 26, 2025 18:56:18.728 [133338454956856] DEBUG - Completed: [[::1]:38254] 200 GET /identity (2 live) #88 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:23.785 [133338430540600] DEBUG - Request: [[::1]:38258 (Loopback)] GET /identity (2 live) #8b
+May 26, 2025 18:56:23.785 [133338454956856] DEBUG - Completed: [[::1]:38258] 200 GET /identity (2 live) #8b 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:28.842 [133338430540600] DEBUG - Request: [[::1]:34240 (Loopback)] GET /identity (2 live) #8e
+May 26, 2025 18:56:28.842 [133338452847416] DEBUG - Completed: [[::1]:34240] 200 GET /identity (2 live) #8e 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:33.900 [133338430540600] DEBUG - Request: [[::1]:34244 (Loopback)] GET /identity (2 live) #91
+May 26, 2025 18:56:33.900 [133338454956856] DEBUG - Completed: [[::1]:34244] 200 GET /identity (2 live) #91 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:38.953 [133338430540600] DEBUG - Request: [[::1]:52986 (Loopback)] GET /identity (2 live) #94
+May 26, 2025 18:56:38.953 [133338452847416] DEBUG - Completed: [[::1]:52986] 200 GET /identity (2 live) #94 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:44.005 [133338430540600] DEBUG - Request: [[::1]:52996 (Loopback)] GET /identity (2 live) #97
+May 26, 2025 18:56:44.006 [133338454956856] DEBUG - Completed: [[::1]:52996] 200 GET /identity (2 live) #97 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:49.062 [133338430540600] DEBUG - Request: [[::1]:38436 (Loopback)] GET /identity (2 live) #9a
+May 26, 2025 18:56:49.062 [133338452847416] DEBUG - Completed: [[::1]:38436] 200 GET /identity (2 live) #9a 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:54.117 [133338430540600] DEBUG - Request: [[::1]:38438 (Loopback)] GET /identity (2 live) #9d
+May 26, 2025 18:56:54.117 [133338452847416] DEBUG - Completed: [[::1]:38438] 200 GET /identity (2 live) #9d 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:56:59.173 [133338430540600] DEBUG - Request: [[::1]:57752 (Loopback)] GET /identity (2 live) #a0
+May 26, 2025 18:56:59.173 [133338454956856] DEBUG - Completed: [[::1]:57752] 200 GET /identity (2 live) #a0 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:04.228 [133338430540600] DEBUG - Request: [[::1]:57754 (Loopback)] GET /identity (2 live) #a3
+May 26, 2025 18:57:04.228 [133338452847416] DEBUG - Completed: [[::1]:57754] 200 GET /identity (2 live) #a3 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:09.284 [133338430540600] DEBUG - Request: [[::1]:41876 (Loopback)] GET /identity (2 live) #a6
+May 26, 2025 18:57:09.284 [133338452847416] DEBUG - Completed: [[::1]:41876] 200 GET /identity (2 live) #a6 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:14.354 [133338430540600] DEBUG - Request: [[::1]:41888 (Loopback)] GET /identity (2 live) #a9
+May 26, 2025 18:57:14.354 [133338454956856] DEBUG - Completed: [[::1]:41888] 200 GET /identity (2 live) #a9 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:15.388 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.388 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=44, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:15.388 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.388 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.391 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.391 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.391 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:15.391 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.391 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.391 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.398 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.398 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1002, change=0x0
+May 26, 2025 18:57:15.398 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.398 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.399 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.399 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.399 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1002, change=0x100
+May 26, 2025 18:57:15.399 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.399 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.405 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.405 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.405 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:57:15.406 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.406 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.406 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.407 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.407 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x1002, change=0x0
+May 26, 2025 18:57:15.407 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.408 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.410 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.410 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.410 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1003, change=0x1
+May 26, 2025 18:57:15.410 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.410 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.411 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.411 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.411 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x1003, change=0x0
+May 26, 2025 18:57:15.411 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.411 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.412 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.413 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.414 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=44, flags=0x1002, change=0x0
+May 26, 2025 18:57:15.414 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.415 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.417 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.417 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.418 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1003, change=0x0
+May 26, 2025 18:57:15.419 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.419 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.420 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.421 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.421 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x1003, change=0x0
+May 26, 2025 18:57:15.422 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.422 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.423 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.600 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=672, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:15.601 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=44, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:15.607 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.607 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x11043, change=0x0
+May 26, 2025 18:57:15.607 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.607 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.609 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.609 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.609 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x11043, change=0x0
+May 26, 2025 18:57:15.609 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.609 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.617 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.617 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.617 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x11043, change=0x0
+May 26, 2025 18:57:15.617 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.617 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.618 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.618 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.618 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x11043, change=0x0
+May 26, 2025 18:57:15.618 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.618 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.619 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.824 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.824 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x1003, change=0x0
+May 26, 2025 18:57:15.824 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.825 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.825 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.826 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.826 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1003, change=0x0
+May 26, 2025 18:57:15.826 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.826 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.840 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.840 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.840 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=44, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:15.840 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.840 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.840 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.848 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.848 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1002, change=0x41
+May 26, 2025 18:57:15.848 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.848 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.854 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.854 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.854 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x1002, change=0x0
+May 26, 2025 18:57:15.854 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.854 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.857 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.857 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:15.857 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=44, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:15.857 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.857 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x1002, change=0x0
+May 26, 2025 18:57:15.857 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.858 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.859 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.860 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:15.860 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=45, flags=0x1002, change=0x0
+May 26, 2025 18:57:15.860 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:15.860 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1043, change=0x0
+May 26, 2025 18:57:15.860 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:15.860 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:15.861 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:15.861 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:15.861 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=45, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:16.421 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:16.421 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1003, change=0x0
+May 26, 2025 18:57:16.421 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:16.421 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:16.422 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:19.408 [133338430540600] DEBUG - Request: [[::1]:52026 (Loopback)] GET /identity (2 live) #ac
+May 26, 2025 18:57:19.409 [133338454956856] DEBUG - Completed: [[::1]:52026] 200 GET /identity (2 live) #ac 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:24.467 [133338430540600] DEBUG - Request: [[::1]:52030 (Loopback)] GET /identity (2 live) #af
+May 26, 2025 18:57:24.467 [133338452847416] DEBUG - Completed: [[::1]:52030] 200 GET /identity (2 live) #af 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:29.531 [133338430540600] DEBUG - Request: [[::1]:33678 (Loopback)] GET /identity (2 live) #b2
+May 26, 2025 18:57:29.531 [133338454956856] DEBUG - Completed: [[::1]:33678] 200 GET /identity (2 live) #b2 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:34.590 [133338430540600] DEBUG - Request: [[::1]:33682 (Loopback)] GET /identity (2 live) #b5
+May 26, 2025 18:57:34.591 [133338454956856] DEBUG - Completed: [[::1]:33682] 200 GET /identity (2 live) #b5 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:39.674 [133338430540600] DEBUG - Request: [[::1]:49716 (Loopback)] GET /identity (2 live) #b8
+May 26, 2025 18:57:39.674 [133338454956856] DEBUG - Completed: [[::1]:49716] 200 GET /identity (2 live) #b8 0ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:44.688 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1880, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:44.688 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1002, change=0x41
+May 26, 2025 18:57:44.688 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:44.688 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - Detected primary interface: 10.0.4.229
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - Network interfaces:
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG -  * 2 eth0 (10.0.4.229) (7C-1E-52-F0-46-1F) (loopback: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG -  * 9 br-f066a3805121 (172.20.0.1) (02-42-AF-4B-89-8C) (loopback: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG -  * 22 br-de5f798842f0 (172.18.0.1) (02-42-96-88-AA-48) (loopback: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG -  * 27 br-ab7b93007b67 (172.19.0.1) (02-42-A9-58-73-76) (loopback: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:44.702 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:44.824 [133338430540600] DEBUG - Request: [[::1]:49718 (Loopback)] GET /identity (2 live) #bb
+May 26, 2025 18:57:44.825 [133338452847416] DEBUG - Completed: [[::1]:49718] 200 GET /identity (2 live) #bb 1ms 417 bytes (pipelined: 1)
+May 26, 2025 18:57:45.086 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=88, type=RTM_GETADDR, flags=0x0
+May 26, 2025 18:57:45.086 [133338426256184] DEBUG - NetworkInterface: Netlink address message family=2, index=6, flags=0x80
+May 26, 2025 18:57:45.086 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.086 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.087 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.087 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1072, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:45.087 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=6, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:45.613 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.614 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=17, flags=0x1003, change=0x0
+May 26, 2025 18:57:45.614 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.614 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.615 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.615 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.615 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=17, flags=0x1003, change=0x0
+May 26, 2025 18:57:45.615 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.615 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.621 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.621 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.621 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=16, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:45.621 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.621 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.623 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.629 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.629 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=17, flags=0x1002, change=0x41
+May 26, 2025 18:57:45.629 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.629 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.637 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.637 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.637 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=17, flags=0x1002, change=0x0
+May 26, 2025 18:57:45.637 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.637 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=16, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=17, flags=0x1002, change=0x0
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=17, flags=0x1002, change=0x0
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:45.638 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=17, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:45.775 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.775 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=13, flags=0x1003, change=0x0
+May 26, 2025 18:57:45.775 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.775 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.784 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.784 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.784 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=13, flags=0x1003, change=0x0
+May 26, 2025 18:57:45.784 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.784 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.788 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.788 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.788 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=12, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:45.788 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.788 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.789 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.791 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.791 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=13, flags=0x1002, change=0x41
+May 26, 2025 18:57:45.791 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.791 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.797 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.797 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.797 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=13, flags=0x1002, change=0x0
+May 26, 2025 18:57:45.797 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.797 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=12, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=13, flags=0x1002, change=0x0
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=13, flags=0x1002, change=0x0
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:45.798 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=13, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:46.199 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.199 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=15, flags=0x1003, change=0x0
+May 26, 2025 18:57:46.199 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.199 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.209 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:46.209 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.209 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=15, flags=0x1003, change=0x0
+May 26, 2025 18:57:46.209 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.209 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.210 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:46.210 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.210 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=14, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:46.210 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.210 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.210 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:46.217 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.217 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=15, flags=0x1002, change=0x41
+May 26, 2025 18:57:46.217 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.217 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.229 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:46.229 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.229 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=15, flags=0x1002, change=0x0
+May 26, 2025 18:57:46.229 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.229 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.230 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:46.230 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:46.230 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=14, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:46.230 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.230 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=15, flags=0x1002, change=0x0
+May 26, 2025 18:57:46.230 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.230 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=15, flags=0x1002, change=0x0
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1896, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=9, flags=0x1043, change=0x0
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - Network change notification but nothing changed.
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+May 26, 2025 18:57:46.233 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=15, flags=0x1002, change=0xffffffff
+May 26, 2025 18:57:46.270 [133338426256184] DEBUG - NetworkInterface: received Netlink message len=1888, type=RTM_NEWLINK, flags=0x0
+May 26, 2025 18:57:46.270 [133338426256184] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=9, flags=0x1002, change=0x41
+May 26, 2025 18:57:46.270 [133338426256184] DEBUG - Network change.
+May 26, 2025 18:57:46.270 [133338426256184] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG - Detected primary interface: 10.0.4.229
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG - Network interfaces:
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG -  * 2 eth0 (10.0.4.229) (7C-1E-52-F0-46-1F) (loopback: 0)
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG -  * 22 br-de5f798842f0 (172.18.0.1) (02-42-96-88-AA-48) (loopback: 0)
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG -  * 27 br-ab7b93007b67 (172.19.0.1) (02-42-A9-58-73-76) (loopback: 0)
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:46.283 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:46.283 [133338424146744] DEBUG - Network change for advertiser.
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 26, 2025 18:57:46.284 [133338426256184] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - Network change for advertiser.
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - Network change for advertiser.
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Network change for browser (polled=0), closing 6 browse sockets.
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Browsing on interface 10.0.4.229 on broadcast address 10.0.255.255 (index: 1)
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 2)
+May 26, 2025 18:57:46.285 [133338424146744] ERROR - NetworkService: Couldn't bind to port 0: bind: Address not available [system:99 at /home/runner/_work/plex-media-server/plex-media-server/build/dependencies/plex-media-server/standard-x86_64-linux-musl/boost/include/boost/asio/detail/reactive_socket_service.hpp:161:33 in function 'bind']
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 4)
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Network change for browser (polled=1), closing 6 browse sockets.
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 26, 2025 18:57:46.285 [133338424146744] DEBUG - NetworkService: Browsing on interface 10.0.4.229 on broadcast address 10.0.255.255 (index: 1)
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 2)
+May 26, 2025 18:57:46.286 [133338424146744] ERROR - NetworkService: Couldn't bind to port 0: bind: Address not available [system:99 at /home/runner/_work/plex-media-server/plex-media-server/build/dependencies/plex-media-server/standard-x86_64-linux-musl/boost/include/boost/asio/detail/reactive_socket_service.hpp:161:33 in function 'bind']
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 4)
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Network change for browser (polled=0), closing 5 browse sockets.
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Browsing on interface 10.0.4.229 on broadcast address 239.255.255.250 (index: 0)
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 26, 2025 18:57:46.286 [133338424146744] ERROR - NetworkService: Couldn't bind to port 0: bind: Address not available [system:99 at /home/runner/_work/plex-media-server/plex-media-server/build/dependencies/plex-media-server/standard-x86_64-linux-musl/boost/include/boost/asio/detail/reactive_socket_service.hpp:161:33 in function 'bind']
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 2)
+May 26, 2025 18:57:46.286 [133338424146744] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 239.255.255.250 (index: 3)
+May 26, 2025 18:57:46.286 [133338424146744] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 26, 2025 18:57:46.386 [133338424146744] INFO - [NSB] Abandoning browse socket, it was closed.
+May 26, 2025 18:57:46.386 [133338424146744] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 26, 2025 18:57:46.413 [133338465229624] DEBUG - Shutting down with signal 15 (Terminated)
+May 26, 2025 18:57:46.413 [133338465229624] DEBUG - Ordered to stop server.
+May 26, 2025 18:57:46.414 [133338469964432] DEBUG - Stopping server...
+May 26, 2025 18:57:46.414 [133338469964432] DEBUG - HttpServer: Stopping server.
+May 26, 2025 18:57:46.414 [133338454956856] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+May 26, 2025 18:57:46.414 [133338454956856] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+May 26, 2025 18:57:46.414 [133338419927864] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+May 26, 2025 18:57:46.414 [133338469964432] DEBUG - Server stopped.
+May 26, 2025 18:57:46.414 [133338469964432] DEBUG - NetworkService: Stopping advertisement.
+May 26, 2025 18:57:46.414 [133338469964432] DEBUG - Killing plug-ins.
+May 26, 2025 18:57:46.430 [133338469964432] DEBUG - [com.plexapp.agents.imdb] Killing.
+May 26, 2025 18:57:46.439 [133338465229624] WARN - JobManager: Could not find job for handle 369
+May 26, 2025 18:57:46.440 [133338469964432] DEBUG - [com.plexapp.system] Killing.
+May 26, 2025 18:57:46.449 [133338465229624] WARN - JobManager: Could not find job for handle 277
+May 26, 2025 18:57:46.450 [133338469964432] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+May 26, 2025 18:57:46.450 [133338469964432] DEBUG - [JobRunner] Signalling job ID 333 with 2
+May 26, 2025 18:57:46.473 [133338465229624] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 333 is 0 (success)
+May 26, 2025 18:57:46.473 [133338422037304] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+May 26, 2025 18:57:46.475 [133338469964432] DEBUG - Database: Shutting down.
+May 26, 2025 18:57:46.486 [133338424146744] INFO - [NSB] Abandoning browse socket, it was closed.
+May 26, 2025 18:57:46.490 [133338469964432] DEBUG - Database: Shutting down.
